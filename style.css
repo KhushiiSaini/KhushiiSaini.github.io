@@ -57,7 +57,7 @@ nav ul li a::after{
   content: '';
   width: 0%;
   height: 3px;
-  background: #0475bf;
+  background: #4880A4;
   position: absolute;
   left: 0;
   bottom: -6px;
@@ -77,7 +77,7 @@ nav ul li a:hover::after{
 }
 
 .header-text p span{
-  color: #0475bf;
+  color: #4880A4;
 }
 .header-text h1{
     margin-left : -65%;
@@ -87,7 +87,7 @@ nav ul li a:hover::after{
 }
 
 .header-text h1 span{
-  color: #339bd6;
+  color: #4880A4;
 }
 
 .im {
@@ -97,10 +97,7 @@ nav ul li a:hover::after{
 }
 
 
-#education{
 
-
-}
 
 .container{
   padding : 0% 10%;
@@ -110,7 +107,7 @@ nav ul li a:hover::after{
 .education-text p{
   font-size: 40px;
   text-decoration-line: underline;
-   text-decoration-color: #0475bf;
+   text-decoration-color: #4880A4;
 
 
 }
@@ -121,21 +118,29 @@ nav ul li a:hover::after{
 
 .main h1{
   font-size: 30px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .main p{
   font-size : 25px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .main p1{
   font-size : 20px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .main div {
   background: #262626;
   padding: 40px;
+  
 
 }
-#skills{
 
+.main div:hover {
+    background: linear-gradient(to left, #262626, #0475bf); /* Gradient from left to right */
+    background-size: 200% 100%; /* Expanding the background size to create the movement effect */
+    background-position: right; 
 }
+
 
 .container{
   padding : 0% 10%;
@@ -145,7 +150,8 @@ nav ul li a:hover::after{
 .skills-text p{
   font-size: 40px;
   text-decoration-line: underline;
-   text-decoration-color: #0475bf;
+   text-decoration-color: #4880A4;
+
 
 
 }
@@ -158,9 +164,11 @@ nav ul li a:hover::after{
 
 .list p{
     font-size : 25px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   }
 .list p1{
     font-size : 20px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   }
 
 .list div{
@@ -169,9 +177,12 @@ nav ul li a:hover::after{
 
 }
 
-#cert{
- 
+.list div:hover {
+    background: linear-gradient(to left, #262626, #0475bf); /* Gradient from left to right */
+    background-size: 200% 100%; /* Expanding the background size to create the movement effect */
+    background-position: right; 
 }
+
 
 .container{
   padding : 10px 10%;
@@ -181,7 +192,8 @@ nav ul li a:hover::after{
 .cert-text p{
   font-size: 40px;
   text-decoration-line: underline;
-   text-decoration-color: #0475bf;
+   text-decoration-color: #4880A4;
+  
 
 
 }
@@ -190,18 +202,22 @@ nav ul li a:hover::after{
 }
 .certification p{
   font-size : 20px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 
 }
 
 .certification div{
   background: #262626;
   padding: 40px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 
 }
-
-#contact{
-
+.certification div:hover {
+    background: linear-gradient(to left, #262626, #0475bf); /* Gradient from left to right */
+    background-size: 200% 100%; /* Expanding the background size to create the movement effect */
+    background-position: right; 
 }
+
 .container{
   padding : 10px 10%;
 }
@@ -209,7 +225,7 @@ nav ul li a:hover::after{
 .contact-text p{
   font-size: 40px;
   text-decoration-line: underline;
-   text-decoration-color: #0475bf;
+   text-decoration-color: #4880A4;
 
 
 }
